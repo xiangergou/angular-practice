@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { TemplateDrivenFormsComponent } from './template-driven-forms/template-driven-forms.component';
+
+
+const routes: Routes = [
+  { path: 'template-driven-forms', component: TemplateDrivenFormsComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
